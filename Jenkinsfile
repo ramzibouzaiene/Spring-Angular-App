@@ -11,13 +11,12 @@ pipeline {
     tools {
         jdk 'jdk17'
         maven 'maven'
+        nodejs 'nodejs'
     }
 
     stages{
         stage('Prepare Envirement'){
             steps {
-                sh 'apk update && apk add git maven openjdk17 nodejs'
-                sh 'export PATH="$JAVA_HOME/bin:$PATH"'
                 sh 'echo "Java version:" && java --version'
                 sh 'echo "Maven version:" && mvn --version'
                 sh 'echo "Docker version:" && docker --version'
@@ -53,7 +52,6 @@ pipeline {
         stage('Build Frontend App') {
             steps {
                 dir('frontend') {
-                    sh 'apk update && apk add npm'
                     sh 'npm ci'
                     sh 'npm install --prefer-offline'
                     sh 'npm run build'
