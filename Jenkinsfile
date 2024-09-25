@@ -11,6 +11,11 @@ pipeline {
         nodejs 'nodejs'
     }
 
+    environment {
+        JAVA_HOME = '/usr/lib/jvm/java-17-openjdk'
+        PATH = "$JAVA_HOME/bin:$PATH"
+    }
+
     stages{
         stage('Build Backend'){
             steps{
