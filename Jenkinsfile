@@ -12,10 +12,10 @@ pipeline {
     }
 
     environment {
-        JAVA_HOME = '/usr/lib/jvm/java-17-openjdk'
-        PATH = "$JAVA_HOME/bin:$PATH"
+        JAVA_HOME = tool name: 'jdk17', type: 'jdk'
+        PATH = "${JAVA_HOME}/bin:${env.PATH}"
     }
-
+    
     stages{
         stage('Build Backend'){
             steps{
