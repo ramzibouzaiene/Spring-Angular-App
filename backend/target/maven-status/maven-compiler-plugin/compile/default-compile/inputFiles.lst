@@ -1,0 +1,17 @@
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\auth\CustomUserDetails.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\auth\JwtAuthenticationEntryPoint.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\auth\JwtAuthenticationFilter.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\auth\JwtTokenProvider.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\config\ApplicationConfig.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\config\SecurityConfig.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\controllers\AuthController.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\controllers\TestController.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\dto\AuthResponseDto.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\dto\LoginDto.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\dto\RegisterDto.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\enums\RoleEnum.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\model\User.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\repository\UserRepository.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\service\AuthService.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\service\impl\AuthServiceImpl.java
+C:\Users\ramzi.bouzaiene\OneDrive - Proxym®\Bureau\workshop-demo\backend\src\main\java\com\ramzi\workshop\WorkshopApplication.java
