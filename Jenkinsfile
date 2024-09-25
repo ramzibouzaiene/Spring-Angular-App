@@ -7,6 +7,11 @@ pipeline {
         nodejs 'nodejs'
     }
 
+    environment {
+        JAVA_HOME = "${tool 'jdk17'}"
+        PATH = "${env.JAVA_HOME}/bin:${env.PATH}"
+    }
+
     stages{
         stage('Build Backend'){
             steps{
