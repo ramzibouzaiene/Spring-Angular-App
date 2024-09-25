@@ -1,13 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
-        NODE_ENV = 'dev'
-        MAVEN_CLI_OPTS = "-B -ntp"
-        JAVA_HOME = '/usr/lib/jvm/java-17-openjdk'
-    }
-
     tools {
         jdk 'jdk17'
         maven 'maven'
@@ -18,7 +11,7 @@ pipeline {
         stage('Build Backend'){
             steps{
                 dir('backend'){
-                    sh 'mvn dependency:go-offline'
+                    sh 'mvn -B -DskipTests clean package'
                 }
             }
             post{
