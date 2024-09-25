@@ -15,15 +15,6 @@ pipeline {
     }
 
     stages{
-        stage('Prepare Envirement'){
-            steps {
-                sh 'echo "Java version:" && java --version'
-                sh 'echo "Maven version:" && mvn --version'
-                sh 'echo "Docker version:" && docker --version'
-                sh 'echo "Node.js version:" && node --version'
-            }
-        }
-
         stage('Build Backend'){
             steps{
                 dir('backend'){
