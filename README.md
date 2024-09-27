@@ -58,4 +58,5 @@ This repository contains a full-stack web application built using Spring Boot an
 3. **Access the application**
 
 Frontend: Open your browser and navigate to http://localhost:4200.
+
 Backend API: The backend will be available at http://localhost:8080.
