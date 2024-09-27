@@ -42,9 +42,13 @@ This repository contains a full-stack web application built using Spring Boot an
 ### Running the Application with Docker Compose
 
 1. **Clone the repository**
+   
    git clone https://github.com/ramzibouzaiene/Spring-Angular-App.git
-   cd your-repo-name
+   
+   cd Spring-Angular-App
+   
 2. **Build and run the application: Run the following command to build and start both the backend and frontend services**
+   
    docker-compose up --build
    
   This will:
